@@ -1,5 +1,5 @@
 user_1 = {
-    "name": "Michael",
+    # "name": "Michael",
     "age": 21,
     "balance": 10000,
     "status": False
@@ -19,7 +19,7 @@ user_1 = {
 #     "status": True
 # }
 
-if user_1["name"] and user_1["age"] >= 18 and user_1["status"] == False:
+if user_1.get("name", None) and user_1["age"] >= 18 and user_1["status"]:
     if user_1["balance"] > 0:
         print(f"Hello, {user_1['name']}! Nice to meet you!")
     else:
