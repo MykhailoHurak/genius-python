@@ -1,3 +1,5 @@
+# Інкапсуляція
+
 class Card:
     """Class for users card"""
 
